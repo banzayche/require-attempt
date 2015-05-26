@@ -10,7 +10,7 @@ requirejs.config({
 		'bootstrap' : '../bower_components/bootstrap/dist/js/bootstrap',
 		'underscore' : '../bower_components/underscore/underscore',
 		'backbone' : '../bower_components/backbone/backbone',
-		'backbone.babysiter' : '../bower_components/backbone.babysitter/lib/backbone.babysitter',
+		'backbone.babysitter' : '../bower_components/backbone.babysitter/lib/backbone.babysitter',
 		'backbone.wreqr' : '../bower_components/backbone.wreqr/lib/backbone.wreqr',
 		'marionette' : '../bower_components/backbone.marionette/lib/core/backbone.marionette',
 
@@ -27,8 +27,8 @@ requirejs.config({
 		'bootstrap' : ['jquery'], 
 		'underscore' : ['bootstrap'],
 		'backbone' : ['underscore'],
-		'backbone.babysiter' : ['backbone'],
-		'backbone.wreqr' : ['backbone.babysiter'],
+		'backbone.babysitter' : ['backbone'],
+		'backbone.wreqr' : ['backbone.babysitter'],
 		'marionette' : ['backbone.wreqr'],
 		'test' : ['marionette'],
 
