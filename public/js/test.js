@@ -1,3 +1,3 @@
-define(function(Marionette){
-	return console.log('Test happened')
+define(function(){
+	return console.log('tes1');
 });

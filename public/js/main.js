@@ -1,8 +1,9 @@
-define(['router-controller' , 'test', 'jquery'], function(undefined, test){
-	test //testing of simplest work of requireJS
+define(['jquery', 'underscore', 'backbone', 'backbone.babysitter', 'backbone.wreqr', 'marionette', 'test', 'app', 'model-collection', 'static-views', 'tile-list', 'list-views', 'router-controller'], function($, _, Backbone, bbs, bwrq, Marionette, test){	
+	console.log('main');
+	console.log(Backbone)
+	console.log($)
+	console.log(Marionette)
+	console.log(_)
 
-	// kick of our App
-	$(document).ready(function(){
-		myLibrarryApp.start();
-	});
+	window.myLibrarryApp.start();
 })

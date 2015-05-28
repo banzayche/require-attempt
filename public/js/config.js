@@ -1,5 +1,5 @@
 requirejs.config({
-	// baseURL: './js',
+	baseURL: '.',
 	deps: ['main'],
 	paths: {
 		// test
@@ -15,12 +15,12 @@ requirejs.config({
 		'marionette' : '../bower_components/backbone.marionette/lib/core/backbone.marionette',
 
 		// App
-		'app' : '/js/app',
-		'model-collection' : '/js/model_collection/model-collection',
-		'static-views' : '/js/views/static-views',
-		'list-views' : '/js/views/list-views',
-		'tile-list' : '/js/views/tile-list',
-		'router-controller' : '/js/router_controller/router-controller'
+		'app' : 'app',
+		'model-collection' : 'model_collection/model-collection',
+		'static-views' : 'views/static-views',
+		'list-views' : 'views/list-views',
+		'tile-list' : 'views/tile-list',
+		'router-controller' : 'router_controller/router-controller'
 
 	},
 	shim: {
@@ -32,7 +32,7 @@ requirejs.config({
 		'marionette' : ['backbone.wreqr'],
 		'test' : ['marionette'],
 
-		// app
+		// // app
 		'app' : ['marionette'],
 		'model-collection' : ['app'],
 		'static-views' : ['model-collection'],		
